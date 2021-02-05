@@ -1,0 +1,8 @@
+numpy
+ipywidgets
+nbinteract
+matplotlib
+mpl_toolkits
+pandas
+seaborn
+astropy
