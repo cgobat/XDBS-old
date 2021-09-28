@@ -14,3 +14,6 @@ def dms_to_dec(dms):
     d,m,s = pd.to_numeric(dms.split())    
     deg = sign*((s/60 + m)/60 + np.abs(d)) # use magnitudes only and reapply sign after
     return float(deg)
+
+def round_scientific(number, places):
+    return float(f"%.{places}e"%number)
